@@ -1,0 +1,21 @@
+.callpage-container {
+  height: 100vh;
+  width: auto;
+  margin-left: 50px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.9);
+  .row {
+    height: 100%;
+    display: flex;
+  }
+  .video-container {
+    width: 50%;
+    height: 100%;
+  }
+  .pin-icon {
+    margin-right: 5px;
+    color: rgb(155, 0, 0);
+    font-size: 20px;
+  }
+}

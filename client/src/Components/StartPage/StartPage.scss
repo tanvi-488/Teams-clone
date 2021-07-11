@@ -1,0 +1,74 @@
+.pageSwitcher {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 10%;
+}
+
+.pageSwitcherItem {
+  background-color: #b2a6d1;
+  color: #40434e;
+  padding: 10px 25px;
+  cursor: pointer;
+  font-size: 0.9em;
+  border: none;
+  outline: none;
+  display: inline-block;
+  text-decoration: none;
+}
+.pageSwitcherItem:hover {
+  background-color: #6b5b95;
+}
+.pageSwitcherItem-active {
+  background-color: #6b5b95;
+  color: white;
+  padding: 10px 25px;
+  cursor: pointer;
+  font-size: 0.9em;
+  border: none;
+  outline: none;
+  display: inline-block;
+  text-decoration: none;
+}
+.rightItem {
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+.leftItem {
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
+
+.formTitle {
+  color: #707c8b;
+  font-weight: 300;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 50px !important;
+  margin: 0 10px;
+  padding-bottom: 5px;
+  margin-bottom: 30px;
+}
+.formTitleLink {
+  text-decoration: underline;
+  text-decoration-thickness: 2px !important;
+  text-underline-offset: 5px;
+}
+
+.formTitleLink2 {
+  text-decoration: none !important;
+  color: #707c8b;
+}
+
+.formTitleLink:hover {
+  color: #6b5b95;
+}
+
+.formTitleLink:first-child {
+  margin-left: 0;
+}
+
+.formTitleLink-active {
+  color: white;
+  border-bottom: 1px solid #6b5b95;
+}

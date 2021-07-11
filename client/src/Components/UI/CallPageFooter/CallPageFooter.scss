@@ -1,0 +1,50 @@
+.footer-item {
+  position: absolute;
+  bottom: 20px;
+  left: 33.33%;
+  width: 33.33%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+  background: rgba($color: #000000, $alpha: 0);
+  z-index: 1;
+  .center-item {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    .icon-block {
+      background: #6264a7;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 10px;
+      .icon {
+        color: #fff;
+        font-size: 15px;
+        &.red {
+          color: #fff;
+        }
+      }
+      &:hover {
+        cursor: pointer;
+        box-shadow: 0 0 10px #fff;
+      }
+      &.red-bg {
+        background: rgb(155, 0, 0);
+        .icon {
+          color: #fff;
+        }
+      }
+    }
+    .icon-red {
+      background: rgb(155, 0, 0);
+      color: #fff;
+    }
+  }
+}

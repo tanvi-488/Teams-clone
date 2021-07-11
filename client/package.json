@@ -1,0 +1,77 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@ant-design/icons": "^4.6.2",
+    "@fortawesome/fontawesome-svg-core": "^1.2.35",
+    "@fortawesome/free-regular-svg-icons": "^5.15.3",
+    "@fortawesome/free-solid-svg-icons": "^5.15.3",
+    "@fortawesome/react-fontawesome": "^0.1.14",
+    "@mdi/react": "^1.5.0",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3",
+    "antd": "^4.16.6",
+    "axios": "^0.21.1",
+    "bootstrap": "^5.0.2",
+    "bootstrap-icons": "^1.5.0",
+    "cdbreact": "^1.1.0",
+    "components": "^0.1.0",
+    "dotenv": "^10.0.0",
+    "firebase": "^8.6.8",
+    "i18next": "^20.3.2",
+    "moment": "^2.29.1",
+    "node-sass": "^4.14.1",
+    "react": "^17.0.2",
+    "react-awesome-reveal": "^3.8.1",
+    "react-bootstrap": "^1.6.1",
+    "react-bootstrap-icons": "^1.5.0",
+    "react-chat-engine": "^1.10.5",
+    "react-dom": "^17.0.2",
+    "react-i18next": "^11.11.0",
+    "react-icons": "^4.2.0",
+    "react-media-recorder": "^1.4.0",
+    "react-pro-sidebar": "^0.6.0",
+    "react-recorder": "^1.0.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.3",
+    "recordrtc": "^5.4.8",
+    "shortid": "^2.2.16",
+    "simple-peer": "^9.11.0",
+    "socket.io-client": "^4.1.2",
+    "styled": "^1.0.0",
+    "typescript": "^4.3.5",
+    "web-vitals": "^1.1.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/react-dom": "^17.0.8",
+    "@types/react-i18next": "^8.1.0",
+    "@types/react-router-dom": "^5.1.7",
+    "@types/styled-components": "^5.1.10"
+  }
+}
