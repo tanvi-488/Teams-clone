@@ -32,10 +32,10 @@ Use [npm](https://mpmjs.com), [pnpm](https://pnpm.io) or [yarn](https://yarnpkg.
 
 # startup instruction here
 
-Redis server:redis-server
-Server: cd server
+*Redis server:redis-server
+*Server: cd server
         node index.js
-Client: cd client
+*Client: cd client
         npm start
 
 # ScreenShot
