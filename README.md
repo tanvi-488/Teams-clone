@@ -41,9 +41,11 @@ npm i
 Redis server:redis-server
 
 Server: cd server
+
         node index.js
         
 Client: cd client
+
         npm start
 
 # ScreenShot
