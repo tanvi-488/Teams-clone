@@ -28,6 +28,10 @@ Create a firebase project.
 
 Use [npm](https://mpmjs.com), [pnpm](https://pnpm.io) or [yarn](https://yarnpkg.com) to install all dependencies in both client and server folders.
 
+bash 
+
+npm i
+
 ## Usage
 
 # startup instruction here
