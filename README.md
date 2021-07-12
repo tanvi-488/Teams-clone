@@ -32,6 +32,11 @@ Use [npm](https://mpmjs.com), [pnpm](https://pnpm.io) or [yarn](https://yarnpkg.
 
 # startup instruction here
 
+Redis server:redis-server
+Server: cd server
+        node index.js
+Client: cd client
+        npm start
 
 # ScreenShot
 
@@ -41,11 +46,11 @@ Use [npm](https://mpmjs.com), [pnpm](https://pnpm.io) or [yarn](https://yarnpkg.
 ![image](https://user-images.githubusercontent.com/73576515/125317430-a03d5a00-e356-11eb-9bec-e898ba13c037.png)
 
 
-## .env
-# server
+# .env
+## server
 * PORT
 
-# client
+## client
 * REACT_APP_FIREBASE_API_KEY 
 * REACT_APP_FIREBASE_AUTH_DOMAIN
 * REACT_APP_FIREBASE_PROJECT_ID
