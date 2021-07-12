@@ -20,6 +20,7 @@ import { useAuth } from "../../Contexts/AuthContext";
 import styled from "styled-components";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMapPin } from "@fortawesome/free-solid-svg-icons";
+require("dotenv").config();
 let peer = null;
 const socket = io.connect("http://localhost:4000");
 const initialState = [];
@@ -156,7 +157,7 @@ const CallPage = () => {
                 formdata,
                 {
                   headers: {
-                    "project-id": "f033ec00-96bf-4f86-80a9-c860be5b77e5",
+                    "project-id": process.env.CHAT_ENGINE_PROJECT_ID,
                     "user-name": user.email,
                     "user-secret": user.uid,
                   },
@@ -199,7 +200,7 @@ const CallPage = () => {
                 formdata,
                 {
                   headers: {
-                    "project-id": "f033ec00-96bf-4f86-80a9-c860be5b77e5",
+                    "project-id": process.env.CHAT_ENGINE_PROJECT_ID,
                     "user-name": user.email,
                     "user-secret": user.uid,
                   },
@@ -238,12 +239,6 @@ const CallPage = () => {
       })
       .catch(() => {});
   };
-
-  //Video Streams
-
-  let UserVideo = <Video playsInline muted ref={userVideo} autoPlay />;
-
-  let PartnerVideo = <Video playsInline ref={partnerVideo} autoPlay />;
 
   //Messages
 
@@ -293,6 +288,12 @@ const CallPage = () => {
     );
     setIsPresenting(false);
   };
+
+  //Video Streams
+
+  let UserVideo = <Video playsInline muted ref={userVideo} autoPlay />;
+
+  let PartnerVideo = <Video playsInline ref={partnerVideo} autoPlay />;
 
   //Toggle Streams
 
