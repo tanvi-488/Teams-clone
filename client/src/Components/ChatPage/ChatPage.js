@@ -5,6 +5,7 @@ import "./ChatPage.scss";
 import { useAuth } from "../../Contexts/AuthContext";
 import { useHistory } from "react-router-dom";
 import axios from "axios";
+require("dotenv").config();
 
 const ChatPage = () => {
   const didMountRef = useRef(false);
@@ -28,7 +29,7 @@ const ChatPage = () => {
       axios
         .get("https://api.chatengine.io/users/me/", {
           headers: {
-            "project-id": "f033ec00-96bf-4f86-80a9-c860be5b77e5",
+            "project-id": process.env.CHAT_ENGINE_PROJECT_ID,
             "user-name": user.email,
             "user-secret": user.uid,
           },
@@ -49,7 +50,7 @@ const ChatPage = () => {
           axios
             .post("https://api.chatengine.io/users/", formdata, {
               headers: {
-                "PRIVATE-KEY": "890e6489-b5e4-434d-ac5c-bcdaf8b532b4",
+                "PRIVATE-KEY": process.env.CHAT_ENGINE_PRIVATE_KEY,
               },
             })
             .then((response) => {
@@ -69,7 +70,7 @@ const ChatPage = () => {
       <div className="body">
         <ChatEngine
           height="92vh"
-          projectID="f033ec00-96bf-4f86-80a9-c860be5b77e5"
+          projectID={process.env.CHAT_ENGINE_PROJECT_ID}
           userName={user.email}
           userSecret={user.uid}
         />
@@ -78,3 +79,4 @@ const ChatPage = () => {
   );
 };
 export default ChatPage;
+
