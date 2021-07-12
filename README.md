@@ -35,13 +35,13 @@ npm i
 ## Usage
 
 ```bash
-# redis-server
+ redis-server
 
-# cd server
-# node index.js
+ cd server
+ node index.js
 
-# cd client
-# npm start
+ cd client
+ npm start
 ```
 
 # ScreenShot
