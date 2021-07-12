@@ -35,18 +35,14 @@ npm i
 ## Usage
 
 ```bash
-# startup instruction here
+# redis-server
+
+# cd server
+# node index.js
+
+# cd client
+# npm start
 ```
-
-Redis server:redis-server
-
-Server: cd server
-
-        node index.js
-        
-Client: cd client
-
-        npm start
 
 # ScreenShot
 
