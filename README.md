@@ -28,13 +28,15 @@ Create a firebase project.
 
 Use [npm](https://mpmjs.com), [pnpm](https://pnpm.io) or [yarn](https://yarnpkg.com) to install all dependencies in both client and server folders.
 
-bash 
-
+```bash
 npm i
+```
 
 ## Usage
 
+```bash
 # startup instruction here
+```
 
 Redis server:redis-server
 
